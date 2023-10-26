@@ -1,0 +1,46 @@
+li a {
+    font-family: monospace;
+}
+
+.menu {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(82, 82, 82);
+    font-size: 15px;
+}
+
+.menu:hover {
+    opacity: 0.8;
+}
+
+.menu a {
+    color: white;
+}
+
+#menu .menu {
+    list-style-type: none;
+    padding-left: 25px;
+    padding-top: 11px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+}
+
+.favorites {
+    background-image: url(favorites.png);
+}
+
+.edit {
+    background-image: url(edit.png);
+}
+
+.history {
+    background-image: url(history.png);
+}
+
+.security {
+    background-image: url(security.png);
+}
+
+.settings {
+    background-image: url(settings.png);
+}
